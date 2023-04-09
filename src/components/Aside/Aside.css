@@ -1,0 +1,7 @@
+/* aside */
+
+.aside-layout{
+    background-color: darkmagenta;
+    grid-area: aside;
+  }
+  

@@ -1,0 +1,25 @@
+.Layout-app{
+  /* height: 100%; */
+  background-color: lightgreen;
+  min-height: 100vh;
+  display: grid;
+  grid:
+   
+      "header" 10%
+      "aside"  5% 
+      "main"  1fr
+      "footer" 5%
+      ;
+
+}
+
+ 
+
+
+/* header cortar mas adelante */
+
+
+
+
+
+
