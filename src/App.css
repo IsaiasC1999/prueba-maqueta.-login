@@ -1,25 +1,39 @@
-.Layout-app{
-  /* height: 100%; */
+.content-main {
+  
   background-color: lightgreen;
-  min-height: 100vh;
+  margin: 0px 10px;
   display: grid;
   grid:
-   
-      "header" 10%
-      "aside"  5% 
-      "main"  1fr
-      "footer" 5%
-      ;
+
+  "menu" 80px
+  "main" 1fr
+  "aside" 80px
+  "footer" 65px;
 
 }
 
+
+
+/*  Con un ancho pantalla 600px  */
+
+
+@media(min-width : 600px){
  
-
-
-/* header cortar mas adelante */
-
-
-
-
-
-
+  .content-main {
+    /* height: 100%; */
+    background-color: lightgreen;
+    min-height: 100vh;
+    margin: 0px 10px;
+    display: grid;
+    grid:
+  
+      "menu  menu" 60px 
+      "aside main" 1fr
+      "footer footer" 65px /
+       20%     1fr
+        
+  
+  }
+   
+  
+}
